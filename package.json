@@ -10,10 +10,10 @@
   },
   "dependencies": {
     "next": "latest",
-    "react": "^16.9.0",
-    "react-dom": "^16.9.0"
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
   },
   "devDependencies": {
-    "frontmatter-markdown-loader": "^2.0.0"
+    "frontmatter-markdown-loader": "^3.6.0"
   }
 }

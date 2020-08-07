@@ -4,13 +4,13 @@ const Layout = ({ children }) => (
   <>
     <nav>
       <Link href="/">
-        <a>home</a>
+        <a>A propos</a>
       </Link>
       <Link href="/blog">
-        <a>blog</a>
+        <a>Je découvre les entreprises</a>
       </Link>
-      <Link href="/about">
-        <a>about</a>
+      <Link href="/join">
+        <a>Je rejoins la communauté</a>
       </Link>
     </nav>
     <main>{children}</main>
