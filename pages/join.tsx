@@ -5,12 +5,6 @@ const About = () => (
   <Layout>
     <h1>{attributes.title}</h1>
     <div dangerouslySetInnerHTML={{ __html: html }} />
-    <style jsx>{`
-      h1,
-      div {
-        text-align: center;
-      }
-    `}</style>
   </Layout>
 )
 

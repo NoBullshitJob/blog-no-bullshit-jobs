@@ -14,14 +14,6 @@ const Post = ({ blogpost }) => {
         <img src={attributes.thumbnail} />
         <div dangerouslySetInnerHTML={{ __html: html }} />
       </article>
-      <style jsx>{`
-        article {
-          margin: 0 auto;
-        }
-        h1 {
-          text-align: center;
-        }
-      `}</style>
     </Layout>
   )
 }
