@@ -4,6 +4,7 @@ import Layout from '../../components/layout';
 const importBlogPosts = async () => {
   // https://webpack.js.org/guides/dependency-management/#requirecontext
   const markdownFiles = require
+    //@ts-ignore
     .context('../../content/blogPosts', false, /\.md$/)
     .keys()
     .map((relativePath) => relativePath.substring(2));
